@@ -113,7 +113,7 @@ For this exercise and the next, you'll need to save the files on your local comp
     * The original size.
     * 25% of the original size.
     * Setting the height of the image to 50px.
-  - Make each each image a link (surround `<img>` with `<a>..</a>`)
+  - Make each each image a link   (surround `<img>` with `<a>..</a>`)
     * The first image should point to _github.com_.
     * The second and third images should point to the original image and open in a new window.
 

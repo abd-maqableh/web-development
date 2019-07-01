@@ -2,53 +2,95 @@
 <html>
 <head>
 	<title></title>
+<style >
+
+	
+	fieldset{
+		margin:auto;
+		 width: 500PX; 
+		 background-color: #ffff99;
+
+
+	}
+	.C1{
+			display: block;
+			margin: auto;
+
+
+	}
+
+	label{
+		display: inline-block;
+		width: 200px;
+		text-align: right;
+
+	}
+	.C0{
+
+		display: inline-block;
+		width: 200px;
+		text-align: left;
+	}
+
+
+</style>
+
 </head>
 <body>
-	<fieldset>
-     <legend>Personal details</legend>  
-    FristName<input type="text" name="FristName"><br>
-    LastName<input type="text" name="LastName"><br>
-    Email<input type="Email" name="Email"><br>
-    Gender<input type="radio" name="male">Male<input type="radio" name="female">Female
+
+
+
+		<fieldset >
+ 	<legend>Personal details</legend> 
+
+	<label> FristName:</label><input class="C0" type="text" name="FristName">	<br>
+	 <label>LastName:</label><input class="C0" type="text" name="LastName"><br>
+		 <label>Email:</label><input class="C0" type="Email" name="Email"><br>
+		  	<div style="text-align:center;margin: auto; "  > 
+	Gender<input type="radio" name="male">Male<input type="radio" name="female">Female
+				</div>
+    	</fieldset>
+
+	
+    	
+
+<div >
+	<fieldset  >
+   		  <legend> Magazines </legend> 
+   		  
+
+   		   <input type="checkbox" name="checkbox">Anfeld <br>
+		    <input type="checkbox" name="checkbox">dalymail <br>
+		    <input type="checkbox" name="checkbox">algad <br>
+		    <input type="checkbox" name="checkbox">koora	<br>
+	
     </fieldset>
-    <br>
-<fieldset>
 
-      <legend>Magazines</legend> 
-    </fieldset>
+		   
+</div>
 
+	<div style="margin:auto;" >
 
-    <input type="checkbox" name="checkbox">Anfeld <br>
-    <input type="checkbox" name="checkbox">dalymail <br>
-    <input type="checkbox" name="checkbox">algad <br>
-    <input type="checkbox" name="checkbox">koora	<br>
+	<fieldset >
 
+      <legend>Subscription</legend> 
+      <div style="text-align: center;" >
 
+    	Period 
+ 		<select>
+			  	<option value=" 6">month 6</option>
+			  	<option value="  12">month 12</option>
+			  	<option value=" 18">month 18</option>
+			  	<option value="24">month 24</option>
+		</select> 
+	</div>
 
-<fieldset>
-      <legend>Subscription</legend>  
+	</fieldset>
 
-    Period <select>
-  <option value="6">6</option>
-  <option value="12">12</option>
-  <option value="18">18</option>
-  <option value="24">24</option>
-</select> 
-<br>
-</fieldset>
+</div>
+	<center>
 
-
-
-
-<input type="Submit" value="Subscribe">
-
-
-
-
-
-
-
-
-
+		<input class="C1" type="Submit" value="Subscribe">
+</center>
 </body>
 </html>
