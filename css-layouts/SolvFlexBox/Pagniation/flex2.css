@@ -1,0 +1,15 @@
+.flex2 {
+	display: flex;
+	background-color: blue;
+	justify-content: center;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   
+}
+  .flex2 > div {
+	background-color: #f1f1f1;
+	margin-top: 50%;
+	font-size: 30px;
+	padding: 20px;	
+}
+@media (max-width: 75em) 
