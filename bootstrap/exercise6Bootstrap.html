@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #6: Simple form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<form class="container" >
+    <div class="form-group  col-md-6 ">
+        <label for="first_name"  >First name:</label>
+        <input type="text" name="first_name" class="form-control col-md-6 GroupInputContainer" id="exampleInputEmail1" />
+    </div>
+    <div class="form-group col-md-6">
+        <label for="last_name">Last name:</label>
+        <input type="text" name="last_name" class="form-control col-md-6 GroupInputContainer " id="last_name"/>
+    </div>
+    <div class="radio  radio-info ">
+        <label><input type="radio" name="gender" id="Radios1" value="male"/>male</label>
+        <label><input type="radio"  name="gender" value="female"/>female</label>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="birth_date">Date of birth:</label>
+        <input type="date" name="birth_date" class="form-control col-md-6 GroupInputContainer " id="birth_date"  />
+    </div>
+     <button type="submit" class="btn btn-primary">Add</button>
+</form>
+</body>
+</html>
